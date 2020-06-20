@@ -20,12 +20,17 @@ export default class Product extends Component {
     const { product } = this.state;
 
     return (
-      <div className="product-info">
-        <h1>{product.title}</h1>
-        <p>{product.description}</p>
-        <p>
-          URL: <a href={product.url}>{product.url}</a>
-        </p>
+      <div className="content">
+        <div className="product-info">
+          <div className="info">
+          <h1>{product.title}</h1>
+          <p>{product.description}</p>
+          <p>
+            URL: <a href={product.url}>{product.url}</a>
+          </p>
+          </div>
+        </div>
+        <div className="other"></div>
       </div>
     );
   }

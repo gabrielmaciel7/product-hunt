@@ -1,11 +1,36 @@
 header#main-header {
-  height: 60px;
-  width: 100%;
-  background: #da552f;
-  font-size: 18px;
+  height: 70px;
+  width: 100vw;
+  background: #fff;
+  border-bottom: 2px solid #ddd;
+  font-size: 25px;
   font-weight: bold;
   color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+header#main-header div {
+  width: 90%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+header#main-header div p {
+  width: 40px;
+  height: 40px;
+  background: #da552f;
+  margin-left: 40px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
 }

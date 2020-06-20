@@ -48,6 +48,7 @@ export default class Main extends Component {
     const { products, page, productInfo } = this.state;
 
     return (
+      <div className="content">
       <div className="product-list">
         {products.map((product) => (
           <article key={product._id}>
@@ -64,6 +65,8 @@ export default class Main extends Component {
             Próxima
           </button>
         </div>
+      </div>
+      <div className="other"></div>
       </div>
     );
   }
